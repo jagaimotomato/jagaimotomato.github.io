@@ -1,0 +1,31 @@
+<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>.nexmoe-avatar img:hover {
+    animation: avatar 0.8s linear 0s;
+}
+@keyframes avatar {
+    0% {
+        transform: scale(1.2) rotateZ(3deg);
+        animation-timing-function: ease-in;
+    }
+    12.5% {
+        transform: scale(1.2) rotateZ(-3deg)
+    }
+    25% {
+        transform: scale(1.2) rotateZ(3deg)
+    }
+    37.5% {
+        transform: scale(1.2) rotateZ(-3deg)
+    }
+    50% {
+        transform: scale(1.2) rotateZ(3deg);
+        animation-timing-function: ease-out;
+    }
+    62.5% {
+        transform: scale(1.2) rotateZ(-3deg)
+    }
+    75% {
+        transform: scale(1.2) rotateZ(3deg)
+    }
+    87.5% {
+        transform: scale(1.2) rotateZ(-3deg)
+    }
+}
